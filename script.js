@@ -182,7 +182,7 @@ document.querySelector(".logo-prof").addEventListener("click" , (e)=>{
    if (Isloggin){
       open(" https://goldnima.github.io/prof-for-cooffeeweb/")
    }else{
-      open("http://127.0.0.1:5500/content.html")
+      open("https://goldnima.github.io/log-in-for-websitecoffee/")
    }
 
    
