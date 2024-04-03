@@ -1,0 +1,106 @@
+body{
+    background-image: url(/images/پروفایل-قهوه-ی-جادویی-شیک-و-دیدنی.jpg);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form{
+    width: 500px;
+    height: 580px;
+    background-color: #54372b63;
+    margin-top: 100px;
+    border-radius: 20px;
+    
+}
+
+.inputs1{
+    margin-top: 20px;
+        width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:aqua ;
+    border-color: gold;
+    width: 400px;
+    height: 50px;
+}
+
+.inputs2{
+    margin-top: 50px;
+        width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:aqua ;
+    border-color: gold;
+}
+
+.inputs3{
+    margin-top: 50px;
+        width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:aqua ;
+    border-color: gold;
+    margin-bottom: 50px;
+}
+
+
+.btn-form{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: gold;
+    transition: all 0.5s;
+    background-color: aqua;
+}
+
+.btn-form:hover{
+    width: 380px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #54372bc5;
+}
+
+.txt-btn{
+    font-size: 25px;
+    font-style: oblique;
+    color: black;
+    cursor: pointer;
+}
+
+.text-btn:hover{
+    font-size: 20px;
+    font-style: normal;
+    color: blue;
+}
+
+.title-form{
+    font-size: 50px;
+    color: #fff;
+}
+
+@media screen and (max-width:467px) {
+    .form{
+        width: 400px;
+    }
+    .inputs1{
+        width: 200px;
+    }
+
+    .inputs2{
+        width: 200px;
+    }
+
+    .inputs3{
+        width: 200px;
+    }
+
+    .btn-form{
+        width: 200px;
+    }
+}
+

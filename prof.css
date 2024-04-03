@@ -1,0 +1,233 @@
+body{
+    display: flex;
+    background-color: #221518;
+}
+
+
+/* user profile */ 
+
+.user-profile{
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+    margin-left: 50px;
+    background-color: #54372B;
+}
+
+.image-profile{
+    width: 50px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+
+.information{
+    margin-left: 50px;
+    margin-top: 70px;
+    font-family: monospace;
+    color: #fff;
+    font-size: x-large;
+}
+
+.log-out-btn{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.log-out-btn:hover{
+    width: 60px;
+    height: 60px;
+}
+
+.title-prof{
+    margin-left: 50px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* reserve table */
+
+.table-reserve-profile{
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: #54372B;
+    margin-left: 100px;
+    
+}
+
+.info-table{
+    margin-left: 50px;
+    margin-top: 70px;
+    font-family: monospace;
+    color: #fff;
+    font-size: x-large;
+}
+
+
+.shop-user-profile{
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: #54372B;
+    margin-left: 100px;
+}
+
+.delete-table{
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.delete-table:hover{
+    width: 250px;
+    height: 60px;
+    background-color: #fff;
+}
+
+/* shop */
+
+.shops{
+    margin-left: 50px;
+    margin-top: 70px;
+    font-family: monospace;
+    color: #fff;
+    font-size: x-large;
+}
+
+.price-shop{
+    margin-left: 50px;
+    margin-top: 70px;
+    font-family: monospace;
+    color: #fff;
+    font-size: x-large;
+}
+
+.price-shop2{
+    margin-left: 50px;
+    margin-top: 70px;
+    font-family: monospace;
+    color: #fff;
+    font-size: x-large;
+}
+
+.price-shop3{
+    margin-left: 50px;
+    margin-top: 70px;
+    font-family: monospace;
+    color: #fff;
+    font-size: x-large;
+}
+
+.price{
+    display: flex;
+}
+
+.total-price{
+    margin-left: 50px;
+    margin-top: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: x-large;
+}
+
+.t-price{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: x-large;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+@media screen {
+    body{
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 1011px) {
+    body{
+        display: block;
+    }
+
+    .user-profile{
+        margin-left: 280px;;
+    }
+
+    .table-reserve-profile{
+        margin-top: 200px;
+        margin-left: 280px;
+    }
+    .shop-user-profile{
+        margin-top: 200px;
+        margin-left: 280px;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .user-profile{
+        margin-left: 180px;;
+    }
+
+    .table-reserve-profile{
+        margin-top: 200px;
+        margin-left: 180px;
+    }
+    .shop-user-profile{
+        margin-top: 200px;
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width: 617px) {
+    .user-profile{
+        margin-left: 80px;;
+    }
+
+    .table-reserve-profile{
+        margin-top: 200px;
+        margin-left: 80px;
+    }
+    .shop-user-profile{
+        margin-top: 200px;
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .user-profile{
+        margin-left: 0;;
+    }
+
+    .table-reserve-profile{
+        margin-top: 200px;
+        margin-left: 0;
+    }
+    .shop-user-profile{
+        margin-top: 200px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .user-profile{
+       width: 300px;
+    }
+
+    .table-reserve-profile{
+        width: 250px ;
+    }
+    .shop-user-profile{
+        width: 250px;
+    }
+}
