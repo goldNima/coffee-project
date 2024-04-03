@@ -180,7 +180,7 @@ document.querySelector(".logo-prof").addEventListener("click" , (e)=>{
    let Isloggin = localStorage.getItem("username")
 
    if (Isloggin){
-      window.open("http://127.0.0.1:5500/prof.html")
+      open("http://127.0.0.1:5500/prof.html")
    }else{
       open("http://127.0.0.1:5500/content.html")
    }
