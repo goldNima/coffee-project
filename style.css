@@ -843,11 +843,75 @@ li:hover{
         overflow-x: hidden;
     }
     .img-right-header{
-        width: 150px;
-        height: 200px;
+        width: 300px;
+        height: 400px;
         margin-top: 200px;
         margin-left: 0px;
         margin-right: 50px;
+    }
+
+
+    .header-right{
+        width: 348px;
+    }
+
+    .shop{
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    .delete-icon-shop{
+        margin-left: 45px;
+    }
+
+    .delete-icon-shop2{
+        margin-left: 18px;
+    }
+
+    .delete-icon-shop3{
+        margin-left: 10px;
+    }
+
+    .service{
+        margin-left: 0px;
+        width: 250px;
+        margin-top: 10px;
+    }
+
+    .img-services1{
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .img-services2{
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .img-services3{
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .img-services4{
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .img-services5{
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .header{
+        display: block;
+    }
+
+    .img-left-header{
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
     }
 
     .logo-prof{
