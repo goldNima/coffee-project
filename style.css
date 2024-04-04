@@ -887,6 +887,7 @@ li:hover{
 @media screen and (max-width: 378px){
     body{
         overflow-x: hidden;
+        width: 375px;
     }
     .img-right-header{
         width: 300px;
