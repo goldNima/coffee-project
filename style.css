@@ -883,6 +883,12 @@ li:hover{
     .image-Lpart3{
         width: 300px;
     }
+        .part4{
+        width: 350px;
+    }
+    .part2{
+        margin-left: 50px;
+    }
 }
 
 @media screen and (max-width: 378px){
@@ -995,16 +1001,16 @@ li:hover{
     }
     .last-part{
         height: 600px;
-        width: 100%;
+        width: 300px;
     }
         .part3{
-        margin-left: 20px;
+        margin-left: 50px;
     }
     .part2{
         margin-left: 20px;
     }
     .part4{
-        width: 250px;
+        width: 300px;
     }
 
     .comment-box1{
