@@ -884,7 +884,7 @@ li:hover{
     }
 }
 
-@media screen and (max-width: 363px){
+@media screen and (max-width: 378px){
     body{
         overflow-x: hidden;
     }
@@ -993,6 +993,7 @@ li:hover{
     }
     .last-part{
         height: 600px;
+        width: 300px;
     }
         .part3{
         margin-left: 20px;
@@ -1026,11 +1027,17 @@ li:hover{
     .header-left{
         width: 348px;
     }
+    .image-last-part{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 351px) {
     .image-last-part{
         display: none;
+    }
+        body{
+        overflow-x: hidden;
     }
 }
 
