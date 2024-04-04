@@ -835,7 +835,53 @@ li:hover{
 .comment-boxs{
     margin-left: 0px;
 }
+.img-right-header{
+    width: 200px;
+    height: 500px;
+    margin-left: 0;
+}
+.img-left-header{
+    margin-left: 0px;
+    width: 300px;
+}
 
+}
+
+@media screen and (max-width: 415px) {
+    .header{
+        display: block;
+    }
+
+    .header-right{
+        margin-top: 200px;
+        width: 412px;
+    }
+
+    body{
+        width: 410px;
+    }
+
+    .header-left{
+        width: 412px;
+    }
+
+    .img-left-header{
+        height: 200px;
+    }
+
+    .comment-box1{
+        width: 412px;
+    }
+    .comment-box2{
+        width: 412px;
+    }
+    .comment-box3{
+        width: 412px;
+    }
+
+    .image-Lpart3{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 363px){
