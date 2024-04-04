@@ -888,10 +888,10 @@ li:hover{
 @media screen and (max-width: 378px){
     body{
         overflow-x: hidden;
-        width: 375px;
+        width: 100%;
     }
     .img-right-header{
-        width: 300px;
+        width: 100%;
         height: 400px;
         margin-top: 200px;
         margin-left: 0px;
@@ -900,7 +900,7 @@ li:hover{
 
 
     .header-right{
-        width: 348px;
+        width: 100%;
     }
 
     .shop{
@@ -995,7 +995,7 @@ li:hover{
     }
     .last-part{
         height: 600px;
-        width: 300px;
+        width: 100%;
     }
         .part3{
         margin-left: 20px;
@@ -1040,6 +1040,7 @@ li:hover{
     }
         body{
         overflow-x: hidden;
+        width: 100%;
     }
 }
 
