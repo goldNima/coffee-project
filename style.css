@@ -1013,11 +1013,29 @@ li:hover{
         height: 600px;
         width: 300px;
     }
-        .part3{
-        margin-left: 50px;
+    .part3{
+        margin-left: 0;
+    }
+    .left-part3{
+        width: 300px;
+    }
+    .right-part3{
+        width: 300px;
+    }
+    .inputs-reserve{
+        margin-left: 25px;
+    }
+    .btn-reserve{
+        margin-left: 35px;
     }
     .part2{
-        margin-left: 20px;
+        margin-left: 0px;
+    }
+    .left-part2{
+        margin-left: 0;
+    }
+    .right-part2{
+        margin-left: 0;
     }
     .part4{
         width: 300px;
