@@ -1014,7 +1014,7 @@ li:hover{
         width: 350px;
     }
     .part3{
-        margin-left: 15px;
+        margin-left: 0px;
     }
     .left-part3{
         width: 300px;
@@ -1032,10 +1032,10 @@ li:hover{
         margin-left: 0px;
     }
     .left-part2{
-        margin-left: 20px;
+        margin-left: 0;
     }
     .right-part2{
-        margin-left: 20px;
+        margin-left: 0;
     }
     .part4{
         width: 300px;
