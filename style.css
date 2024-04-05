@@ -796,13 +796,16 @@ li:hover{
     }
 
     .left-part2{
-        width: 300px;        
+        width: 300px; 
+        margin-left: 50px;       
     }
 
     .right-part2{
         width: 300px;   
-        height: 400px;       
+        height: 400px;  
+        margin-left: 50px;            
     }
+
 
     .image-left-part2{
         width: 250px;
@@ -845,6 +848,13 @@ li:hover{
     margin-left: 0px;
     width: 300px;
 }
+    .right-part3{
+        height: 600px;
+    }
+
+    .part4{
+        margin-top: 800px;
+    }
 
 }
 
