@@ -1014,48 +1014,49 @@ li:hover{
         width: 350px;
     }
     .part3{
-        margin-left: 0px;
+        margin-left: 20px;
     }
     .left-part3{
         width: 300px;
+        height: 400px;
     }
     .right-part3{
         width: 300px;
     }
     .inputs-reserve{
-        margin-left: 25px;
+        margin-left: 35px;
     }
     .btn-reserve{
-        margin-left: 35px;
+        margin-left: 45px;
     }
     .part2{
         margin-left: 0px;
     }
     .left-part2{
-        margin-left: 0;
+        margin-left: 20px;
     }
     .right-part2{
-        margin-left: 0;
+        margin-left: 20px;
     }
     .part4{
         width: 300px;
     }
 
     .comment-box1{
-        width: 250px;
+        width: 300px;
         margin-left: 20px;
         height: 400px;
     }
 
     .comment-box2{
-        width: 250px;
+        width: 300px;
         margin-left: 20px;
         margin-top: 50px;
         height: 400px;
     }
 
     .comment-box3{
-        width: 250px;
+        width: 300px;
         margin-left: 20px;
         margin-top: 50px;
         height: 400px;
@@ -1065,6 +1066,17 @@ li:hover{
     }
     .image-last-part{
         display: block;
+    }
+    .image-Lpart3{
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+    .btn-r-header{
+        display: flex;
+    }
+    .btn-header{
+        margin-right: 0px;
+        margin-left: 20px;
     }
 }
 
