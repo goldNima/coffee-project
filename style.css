@@ -1080,6 +1080,9 @@ li:hover{
         margin-right: 0px;
         margin-left: 20px;
     }
+    .title-header{
+        margin-left: 70px;
+    }
 }
 
 @media screen and (max-width: 351px) {
