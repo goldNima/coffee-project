@@ -983,7 +983,7 @@ li:hover{
     }
 
     .btn-header{
-        margin-right: 50px;
+        margin-right: 40px;
     }
     .inputs{
         margin-left: 0;
@@ -1034,9 +1034,11 @@ li:hover{
     }
     .left-part2{
         margin-left: 20px;
+        height: 400px;
     }
     .right-part2{
         margin-left: 20px;
+        height: 450px;
     }
     .part4{
         width: 300px;
