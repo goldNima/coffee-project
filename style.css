@@ -1079,10 +1079,7 @@ li:hover{
     .btn-r-header{
         display: flex;
     }
-    .btn-header{
-        margin-right: 0px;
-        margin-left: 20px;
-    }
+
     .title-header{
         margin-left: 70px;
     }
