@@ -90,83 +90,93 @@ document.querySelector(".btn-shop").addEventListener("click" , (e)=>{
 
 
 
-function setDatainLocal1 (){
-
-let product1 = "COFFEE";
-
-let jsonContent1 =  JSON.stringify(product1);
-localStorage.setItem("item1" , jsonContent1);
-
-
-setDatainLocal1()
-}
-
-function getData1 (){
-   
-let savedContent = localStorage.getItem("item1");
-
-
-document.querySelector(".product11").innerHTML = savedContent;
-
-
-}
-getData1()
-
-document.querySelector(".shop-logo-product").addEventListener("click" , setDatainLocal1);
-
-
-
 function setDatainLocal2 (){
 
-   let product2 = "Nescaffee";
-   
-   let jsonContent2 =  JSON.stringify(product2);
-   localStorage.setItem("item2" , jsonContent2);
-   
+   let product2 = "Nescoffee";
+
+   localStorage.setItem("item2" , product2);
    
    setDatainLocal2()
-   }
-   
-   function getData2 (){
-      
-   let savedContent2 = localStorage.getItem("item2");
-   
-   
-   document.querySelector(".product22").innerHTML = savedContent2;
-   
-   
-   }
-   getData2()
+}
+
+function setDatainLocal2price (){
+   let product2Price = 25000;
+
+   localStorage.setItem("item2P" , product2Price);
+
+   setDatainLocal2()
+}
+
+function getData2(){
+ let nameItem2 =   localStorage.getItem("item2");
+ let priceItem2 = localStorage.getItem("item2P");
+
+ document.querySelector(".product22").innerHTML = nameItem2;
+}
+
+getData2();
    
    document.querySelector(".shop-logo-product2").addEventListener("click" , setDatainLocal2);
+   document.querySelector(".shop-logo-product2").addEventListener("click" , setDatainLocal2price);
 
 
+   function setDatainLocal1 (){
+
+      let product1 = "coffee";
+   
+      localStorage.setItem("item1" , product1);
+      
+      setDatainLocal1()
+   }
+
+   function setDatainLocal1price (){
+      let product1Price = 15000;
+
+      localStorage.setItem("item1P" , product1Price);
+
+      setDatainLocal1()
+   }
+
+   function getData1(){
+    let nameItem1 =   localStorage.getItem("item1");
+    let priceItem1 = localStorage.getItem("item1P");
+
+    document.querySelector(".product11").innerHTML = nameItem1;
+   }
+
+   getData1();
+      
+      document.querySelector(".shop-logo-product").addEventListener("click" , setDatainLocal1);
+      document.querySelector(".shop-logo-product").addEventListener("click" , setDatainLocal1price);
 
    function setDatainLocal3 (){
 
       let product3 = "chapochino";
-      
-      let jsonContent3 =  JSON.stringify(product3);
-      localStorage.setItem("item3" , jsonContent3);
-      
+   
+      localStorage.setItem("item3" , product3);
       
       setDatainLocal3()
-      }
-      
-      function getData3 (){
-         
-      let savedContent3 = localStorage.getItem("item3");
-      
-      
-      document.querySelector(".product33").innerHTML = savedContent3;
-      
-      
-      }
-      getData3()
+   }
+
+   function setDatainLocal3price (){
+      let product3Price = 35000;
+
+      localStorage.setItem("item3P" , product3Price);
+
+      setDatainLocal3()
+   }
+
+   function getData3(){
+    let nameItem3 =   localStorage.getItem("item3");
+    let priceItem3 = localStorage.getItem("item3P");
+
+    document.querySelector(".product33").innerHTML = nameItem3;
+   }
+
+   getData3();
       
       document.querySelector(".shop-logo-product3").addEventListener("click" , setDatainLocal3);
-
-
+      document.querySelector(".shop-logo-product3").addEventListener("click" , setDatainLocal3price);
 // shop // 
 
 document.querySelector(".btnleft-header").addEventListener("click" , (e)=>{
